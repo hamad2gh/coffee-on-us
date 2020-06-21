@@ -6,6 +6,11 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
 
     <!-- 👇هنا style قم بإضافة وسم   -->
+    <style>
+      h1{
+        text-align: center;
+      }
+    </style>
     <!-- في منتصف الصفحة h1 لجعل العناوين داخل وسوم style قم باستعمال وسم   -->
   </head>
 
@@ -19,6 +24,7 @@
     <h1>Your coffee is on us</h1>
 
     <!-- ليصبحا بمحاذاة من اليمين إلي اليسار h3و p قم بإضافة التنسيق المناسب لوسمي -->
+    <span class="direction">
     <h3>ماذا نعني بالقهوة؟</h3>
     <p>
       القهوة مشروب يعد من بذور البن المحمصة، وينمو في أكثر من ٧٠ بلداً خصوصاً في
@@ -26,8 +32,9 @@
       الهندية وأفريقيا. ونظراً لاحتوائها على الكافيين، يمكن أن يكون للقهوة تأثير
       منبه للبشر
     </p>
+  </span>
     <!-- margin قم بالفصل بين الفقرتين باللغة العربية والإنجليزية باستخدام خواص -->
-    <h3>What does the word Coffee mean?</h3>
+    <h3 class="margin1">What does the word Coffee mean?</h3>
     <p>
       Coffee is a brewed drink prepared from roasted coffee beans, the seeds of
       berries from certain Coffea species. The genus Coffea is native to
@@ -53,47 +60,59 @@
     <!-- في الأسفل border="1" قم بإزالة -->
 
     <!-- padding قم بالتعدييل على مكان الجدول في الصفحة باستخدام خواص -->
-    <table border="1">
+    <table class="margin padding">
       <tr>
-        <th>Starbucks</th>
-        <th>Costa</th>
-        <th>Caribou</th>
+        <th class="green1">Starbucks</th>
+        <th class="red1">Costa</th>
+        <th class="blue1">Caribou</th>
       </tr>
       <tr>
         <!-- Coffeeshop 1 -->
-        <td>
+        <td class="green">
           <a href="./assets/images/Starbucks.jpg" target="_blank">
-            <img
+            <span>
+            <img class="img"
               src="./assets/images/Starbucks.jpg"
               alt="starbucks"
               height="100px"
               width="170px"
             />
-            <p><strong>Starbucks Coffee</strong></p>
+            </span>
+            <div class="strong">
+            <p><strong><div class="underline">Starbucks Coffee</div></strong></p>
+            </div>
           </a>
         </td>
         <!-- Coffeeshop 2 -->
-        <td>
+        <td class="red">
           <a href="./assets/images/Costa.png" target="_blank">
-            <img
+            <span>
+            <img class="img"
               src="./assets/images/Costa.png"
               alt="costa"
               height="100px"
               width="100px"
             />
-            <p><strong>Costa Coffee</strong></p>
+            </span>
+            <div class="strong">
+            <p><strong><div class="underline">Costa Coffee</div></strong></p>
+            </div>
           </a>
         </td>
         <!-- Coffeeshop 3 -->
-        <td>
+        <td class="blue">
           <a href="cs1.html">
+            <span class="img">
             <img
               src="./assets/images/Caribou.png"
               alt="caribou"
               height="100px"
               width="100px"
             />
-            <p><strong>Caribou Coffee</strong></p>
+            </span>
+            <div class="strong">
+            <p><strong><div class="underline">Caribou Coffee</div></strong></p>
+            </div>
           </a>
         </td>
       </tr>
@@ -101,6 +120,7 @@
 
     <!-- قم بجعل صور المتاجر في الأسفل مع أسماء المتاجر مرتبة في سطر واحد -->
     <!-- Linked Images -->
+   <div class="flex">
     <a href="./assets/images/Starbucks.jpg" target="_blank">
       <!-- Image URL -->
       <img
@@ -109,9 +129,10 @@
         height="100px"
         width="170px"
       />
-      <p><strong>Starbucks Coffee</strong></p>
+      <p><div class="underline">Starbucks Coffee</div></p>
     </a>
-
+  
+ 
     <a href="./assets/images/Costa.png" target="_blank">
       <img
         src="./assets/images/Costa.png"
@@ -119,8 +140,9 @@
         height="100px"
         width="100px"
       />
-      <p><strong>Costa Coffee</strong></p>
+      <p><div class="underline">Costa Coffee</div></p>
     </a>
+  
 
     <a href="./assets/images/Caribou.png" target="_blank">
       <img
@@ -129,8 +151,9 @@
         height="100px"
         width="100px"
       />
-      <p><strong>Caribou Coffee</strong></p>
+      <p><div class="underline">Caribou Coffee</div></p>
     </a>
+  </div>
   </body>
 
   <footer>
