@@ -6,8 +6,13 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
 
     <!-- 👇هنا style قم بإضافة وسم   -->
-    <!-- في منتصف الصفحة h1 لجعل العناوين داخل وسوم style قم باستعمال وسم   -->
-  </head>
+    <style>
+h1 {text-align: center;
+color: honeydew;}
+
+</style>
+<!-- في منتصف الصفحة h1 لجعل العناوين داخل وسوم style قم باستعمال وسم   -->
+</head>
 
   <!-- css داخل مجلد styles.css قم بإنشاء ملف جديد وقم بتسميته  -->
   <!-- styles.css وقم بإضافة التعديلات المطلوبة القادمة داخل ملف -->
@@ -19,15 +24,15 @@
     <h1>Your coffee is on us</h1>
 
     <!-- ليصبحا بمحاذاة من اليمين إلي اليسار h3و p قم بإضافة التنسيق المناسب لوسمي -->
-    <h3>ماذا نعني بالقهوة؟</h3>
-    <p>
+    <h3 class="sss">ماذا نعني بالقهوة؟</h3>
+    <p class="sss">
       القهوة مشروب يعد من بذور البن المحمصة، وينمو في أكثر من ٧٠ بلداً خصوصاً في
       المناطق الاستوائية في أمريكا الشمالية والجنوبية وجنوب شرق آسيا وشبه القارة
       الهندية وأفريقيا. ونظراً لاحتوائها على الكافيين، يمكن أن يكون للقهوة تأثير
       منبه للبشر
     </p>
     <!-- margin قم بالفصل بين الفقرتين باللغة العربية والإنجليزية باستخدام خواص -->
-    <h3>What does the word Coffee mean?</h3>
+    <h3 class="aaa">What does the word Coffee mean?</h3>
     <p>
       Coffee is a brewed drink prepared from roasted coffee beans, the seeds of
       berries from certain Coffea species. The genus Coffea is native to
@@ -53,15 +58,15 @@
     <!-- في الأسفل border="1" قم بإزالة -->
 
     <!-- padding قم بالتعدييل على مكان الجدول في الصفحة باستخدام خواص -->
-    <table border="1">
+    <table>
       <tr>
-        <th>Starbucks</th>
-        <th>Costa</th>
-        <th>Caribou</th>
+        <th class="st">Starbucks</th>
+        <th class="co">Costa</th>
+        <th class="ca">Caribou</th>
       </tr>
       <tr>
         <!-- Coffeeshop 1 -->
-        <td>
+        <td class="s">
           <a href="./assets/images/Starbucks.jpg" target="_blank">
             <img
               src="./assets/images/Starbucks.jpg"
@@ -73,7 +78,7 @@
           </a>
         </td>
         <!-- Coffeeshop 2 -->
-        <td>
+        <td class="o">
           <a href="./assets/images/Costa.png" target="_blank">
             <img
               src="./assets/images/Costa.png"
@@ -85,7 +90,7 @@
           </a>
         </td>
         <!-- Coffeeshop 3 -->
-        <td>
+        <td class="a">
           <a href="cs1.html">
             <img
               src="./assets/images/Caribou.png"
@@ -101,6 +106,7 @@
 
     <!-- قم بجعل صور المتاجر في الأسفل مع أسماء المتاجر مرتبة في سطر واحد -->
     <!-- Linked Images -->
+    <div class="f">
     <a href="./assets/images/Starbucks.jpg" target="_blank">
       <!-- Image URL -->
       <img
@@ -131,6 +137,7 @@
       />
       <p><strong>Caribou Coffee</strong></p>
     </a>
+    </div>
   </body>
 
   <footer>
