@@ -1,3 +1,51 @@
+body { background-color: grey;}
+.sss {text-align: right;}
+.aaa {margin-top:50px;}
+.sss {direction: rtl;}
+.st {color: green;}
+.co {color: red;}
+.ca {color: blue;}
+.s {background-color: green;}
+.o {background-color: red;}
+.a {background-color: blue;}
+.f {display: flex;}
+table 
+{
+  /* border: 2px solid black; */
+  padding-left: 450px;
+  
+}
+
+
+a {text-decoration: none;}
+
+body
+{background-image: url("https://images.pexels.com/photos/585750/pexels-photo-585750.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* td {
   background-color: orange;
 } */
