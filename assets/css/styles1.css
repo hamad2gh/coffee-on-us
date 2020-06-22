@@ -1,41 +1,70 @@
 body{
-    background-color:rgb(212, 212, 212);
+    background-color: #19283d;
     background-size: auto;
 }
 img{
     height:300px;
     width:400px;
+    margin: 10px 5px 30px 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border: 9px rgb(56, 81, 128) solid;
 }
 .flex{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-}
-h1{
-    margin-left:625px;
+    justify-content: center;
+    
+ }
+ h1{
+    
     font-size: 40px;
-    color: blue;
-    text-shadow: 4px 4px 4px red;
-}
-.bullet{
+    color: #cfcfcf;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    background-color: #555b6e;
+    margin: 20px 750px 40px 750px;
+    padding: 20px;
+    border-radius: 9px;
+    border: whitesmoke solid 10px;
+    
+ }
+ .bullet{
     list-style-type: none;
+ }
+ p{
+    color: rgb(82, 82, 82);
+   font-size: 30px;
+    text-shadow: 2px 2px 2px #0c325d;
+ border: #154a6d solid 10px;
+ background-color: white;
+ padding: 10px;
+ border-radius: 8px;
 }
-p{
-    color: goldenrod;
-    text-shadow: 1px 1px 1px black;
-}
-h3{
-    font-size: 20px;
-    color: chartreuse;
-    text-decoration: underline;
-    text-shadow: 1px 1px 1px black;
-}
-li{
+ h3 {
+    font-size: 30px;
+    color: rgb(165, 165, 165);
+    text-decoration-style: none;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    border: solid white 8px;
+    margin: 15px 1500px 0px 0px;
+    background-color: rgb(65, 76, 97);
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    
+  }
+ li{
     display: inline-block;
-}
-.li{
+ }
+ .li{
     font-size: 15px;
-    color: crimson;
+    color: #ffffff;
+    background-color: #023e7d ;
+    margin: 25px 450px 0px 0px;
+    border-radius: 9px;
+    padding: 10px;
+    border: white solid 7px;
 }
 .li:hover{
     font-size: 20px;
@@ -52,3 +81,23 @@ li{
 .margin{
     margin-left: 100px;
 }
+
+button:active{
+    transition: ease-in-out 20px;
+    
+}
+table {
+ 
+    border: 10px solid #2a343f;
+    background-color: rgb(73, 81, 105);
+}
+.back{
+    border: white solid 7px;
+    margin: 80px 1670px 10px 10px;
+    font-size: 20px;
+    background-image: linear-gradient(to left, rgb(173, 253, 82), white);
+
+ } 
+ a {
+     text-decoration: none;
+ }
