@@ -1,0 +1,54 @@
+body{
+    background-color:rgb(212, 212, 212);
+    background-size: auto;
+}
+img{
+    height:300px;
+    width:400px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1{
+    margin-left:625px;
+    font-size: 40px;
+    color: blue;
+    text-shadow: 4px 4px 4px red;
+}
+.bullet{
+    list-style-type: none;
+}
+p{
+    color: goldenrod;
+    text-shadow: 1px 1px 1px black;
+}
+h3{
+    font-size: 20px;
+    color: chartreuse;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px black;
+}
+li{
+    display: inline-block;
+}
+.li{
+    font-size: 15px;
+    color: crimson;
+}
+.li:hover{
+    font-size: 20px;
+    color: cornflowerblue;
+}
+.li:active{
+    font-size: 25px;
+    color: darkolivegreen;
+}
+.li:visited{
+    font-size: 25px;
+    color: darkviolet;
+}
+.margin{
+    margin-left: 100px;
+}

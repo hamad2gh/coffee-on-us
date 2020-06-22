@@ -16,6 +16,9 @@
 
  img {
  display: inline;
+ padding:auto;
+ padding-top: 10px;
+ padding-left:10px ;
  }
 
 /* .font {
@@ -47,32 +50,22 @@ body{
 .direction{
   direction: rtl;
 }
-.green{
-  background-color: green;
-}
-.red{
-  background-color: red;
-}
-.blue{
-  background-color: blue;
-}
+
 a {
   text-decoration: none;
 }
 table{
-  border: 1px;
-  border-color: white;
-  
+  border: 10px;
+  border-color: black;
+  border-radius: 50px;
+  margin-left: 500px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  text-decoration:underline;
+  background-color: blanchedalmond;
 }
-.green1{
-  color: green;
-}
-.red1{
-  color: red;
-}
-.blue1{
-  color: blue;
-}
+
 .underline{
   text-decoration: none;
 }
@@ -83,11 +76,11 @@ table{
 list-style-type: none;
 }
 .margin1{
-  margin-top: 150px;
+  margin-top: 100px;
 }
-.strong{
+/* .strong{
   display: inline;
-}
+} */
 .inline{
   display: inline;
 }
@@ -98,4 +91,21 @@ list-style-type: none;
 }
 .flex{
   display: flex;
+  justify-content: space-between;
+}
+.change{
+  color:yellowgreen;
+  background-color:white ;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 3px 3px 3px green;
+}
+.change1{
+  background-image: url("Coffee1.png");
+  background-size: auto;
+}
+a:hover{
+  font-size: 30px;
+  color: aqua;
+
 }
